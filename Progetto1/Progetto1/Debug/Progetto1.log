@@ -1,0 +1,37 @@
+﻿Compilazione avviata 26/01/2016 23.34.43.
+     1>Progetto "C:\Users\Ferra1\Downloads\Final_Manca_PCD\Progetto1\Progetto1\Progetto1.vcxproj" sul nodo 2 (destinazioni: Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\opencv\build\x86\vc12\..\..\include /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib Acquisizione.cpp
+         Acquisizione.cpp
+     1>Acquisizione.cpp(305): warning C4101: 'cpixels': variabile locale senza riferimenti
+     1>Acquisizione.cpp(332): warning C4101: 'cpixels': variabile locale senza riferimenti
+     1>c:\opencv\build\include\opencv2\core\cvstd.hpp(592): warning C4793: 'cv::String::String': funzione compilata come nativa:
+         	Rilevato un intrinseco non supportato nel codice gestito
+     1>c:\opencv\build\include\opencv2\core\mat.inl.hpp(381): warning C4793: 'cv::Mat::Mat': funzione compilata come nativa:
+         	Rilevato un intrinseco non supportato nel codice gestito
+     1>c:\opencv\build\include\opencv2\core\mat.inl.hpp(666): warning C4793: 'cv::Mat::release': funzione compilata come nativa:
+         	Rilevato un intrinseco non supportato nel codice gestito
+     1>c:\opencv\build\include\opencv2\core\mat.inl.hpp(1703): warning C4793: 'cv::SparseMat::addref': funzione compilata come nativa:
+         	Rilevato un intrinseco non supportato nel codice gestito
+     1>c:\opencv\build\include\opencv2\core\mat.inl.hpp(3304): warning C4793: 'cv::UMat::addref': funzione compilata come nativa:
+         	Rilevato un intrinseco non supportato nel codice gestito
+     1>c:\opencv\build\include\opencv2\core\ptr.inl.hpp(67): warning C4793: 'cv::detail::PtrOwner::incRef': funzione compilata come nativa:
+         	Rilevato un intrinseco non supportato nel codice gestito
+     1>c:\opencv\build\include\opencv2\core\ptr.inl.hpp(72): warning C4793: 'cv::detail::PtrOwner::decRef': funzione compilata come nativa:
+         	Rilevato un intrinseco non supportato nel codice gestito
+     1>c:\opencv\build\include\opencv2\core\mat.inl.hpp(565): warning C4793: 'cv::Mat::operator=': funzione compilata come nativa:
+         	Rilevato un intrinseco non supportato nel codice gestito
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ferra1\Downloads\Final_Manca_PCD\Progetto1\Debug\Progetto1.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\build\x86\vc12\lib opencv_ts300d.lib opencv_world300d.lib libpxcmd_d.lib libpxcutilsmd_d.lib opencv_ts300d.lib opencv_world300d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /ASSEMBLYRESOURCE:Debug\Progetto1.MyForm.resources /ASSEMBLYRESOURCE:Debug\Progetto1.MyForm1.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Ferra1\Downloads\Final_Manca_PCD\Progetto1\Debug\Progetto1.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\Acquisizione.obj
+         Debug\MyForm1.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+     1>opencv_ts300d.lib(ts.obj) : warning LNK4099: impossibile trovare il PDB 'opencv_ts300d.pdb' con 'opencv_ts300d.lib(ts.obj)' o in 'C:\Users\Ferra1\Downloads\Final_Manca_PCD\Progetto1\Debug\opencv_ts300d.pdb'; oggetto collegato senza informazioni di debug
+     1>opencv_ts300d.lib(ts_gtest.obj) : warning LNK4099: impossibile trovare il PDB 'opencv_ts300d.pdb' con 'opencv_ts300d.lib(ts_gtest.obj)' o in 'C:\Users\Ferra1\Downloads\Final_Manca_PCD\Progetto1\Debug\opencv_ts300d.pdb'; oggetto collegato senza informazioni di debug
+     1>opencv_ts300d.lib(ts_perf.obj) : warning LNK4099: impossibile trovare il PDB 'opencv_ts300d.pdb' con 'opencv_ts300d.lib(ts_perf.obj)' o in 'C:\Users\Ferra1\Downloads\Final_Manca_PCD\Progetto1\Debug\opencv_ts300d.pdb'; oggetto collegato senza informazioni di debug
+     1>opencv_ts300d.lib(opencv_ts_pch.obj) : warning LNK4099: impossibile trovare il PDB 'opencv_ts300d.pdb' con 'opencv_ts300d.lib(opencv_ts_pch.obj)' o in 'C:\Users\Ferra1\Downloads\Final_Manca_PCD\Progetto1\Debug\opencv_ts300d.pdb'; oggetto collegato senza informazioni di debug
+         Progetto1.vcxproj -> C:\Users\Ferra1\Downloads\Final_Manca_PCD\Progetto1\Debug\Progetto1.exe
+     1>Compilazione progetto "C:\Users\Ferra1\Downloads\Final_Manca_PCD\Progetto1\Progetto1\Progetto1.vcxproj" (destinazioni: Build) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:02.71
